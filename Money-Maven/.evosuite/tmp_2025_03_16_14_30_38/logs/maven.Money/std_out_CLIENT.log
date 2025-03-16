@@ -1,0 +1,130 @@
+* Starting client
+* Connecting to master process on port 19294
+* Analyzing classpath: 
+  - /Users/vikramjeetsingh/EECS4313-W25-Workspace/Money-Maven/Money-Maven/target/classes
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/surefire-junit5/5.0.0-ALPHA/surefire-junit5-5.0.0-ALPHA.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/junit4-engine/5.0.0-ALPHA/junit4-engine-5.0.0-ALPHA.jar
+  - /Users/vikramjeetsingh/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/junit-engine-api/5.0.0-ALPHA/junit-engine-api-5.0.0-ALPHA.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/junit-commons/5.0.0-ALPHA/junit-commons-5.0.0-ALPHA.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/surefire/surefire-api/2.19/surefire-api-2.19.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/surefire/common-java5/2.19/common-java5-2.19.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/junit-launcher/5.0.0-ALPHA/junit-launcher-5.0.0-ALPHA.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/junit5-engine/5.0.0-ALPHA/junit5-engine-5.0.0-ALPHA.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/junit/junit5-api/5.0.0-ALPHA/junit5-api-5.0.0-ALPHA.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M7/maven-surefire-common-3.0.0-M7.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M7/surefire-extensions-api-3.0.0-M7.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M7/surefire-booter-3.0.0-M7.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M7/surefire-extensions-spi-3.0.0-M7.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+  - /Users/vikramjeetsingh/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+  - /Users/vikramjeetsingh/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+  - /Users/vikramjeetsingh/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+  - /Users/vikramjeetsingh/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+  - /Users/vikramjeetsingh/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar
+  - /Users/vikramjeetsingh/.m2/repository/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar
+  - /Users/vikramjeetsingh/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M7/surefire-shared-utils-3.0.0-M7.jar
+* Finished analyzing classpath
+* Generating tests for class maven.Money
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 19 tests from /Users/vikramjeetsingh/EECS4313-W25-Workspace/Money-Maven/Money-Maven/.evosuite/evosuite-seeds/maven.Money.seed
+* Total number of test goals: 
+  - Line 11
+  - Branch 10
+  - Exception 0
+  - MutationFactory 26
+  - Output 12
+  - Method 5
+  - MethodNoException 5
+  - CBranchFitnessFactory 10
+* Using seed 1742149840833
+* Starting evolution
+* Search finished after 66s and 737 generations, 302076 statements, best individual has fitness: 2.3333331734563236
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 96%
+* Total number of goals: 26
+* Number of covered goals: 25
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Generated 14 tests with total length 31
+* Resulting test suite's coverage: 98% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 93%
+* Compiling and checking tests
+* Writing JUnit test case 'Money_ESTest' to /Users/vikramjeetsingh/EECS4313-W25-Workspace/Money-Maven/Money-Maven/.evosuite/tmp_2025_03_16_14_30_38/tests
+* Done!
+
